@@ -34,7 +34,7 @@
         <h3>
 <a id="bienvenido" class="anchor" href="#bienvenido" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bienvenido.</h3>
 
-<p>YOi v0.12 es un pequeño framework PHP que facilita la programación en el lenguaje así como tambien permite organizar tu proyecto de manera limpia y ordenada, evitando el código espagueti que ha hecho muy poco estable a este lenguaje.</p>
+<p>YOi v0.12 es un pequeño framework PHP que facilita la programación en el lenguaje así como también permite organizar tu proyecto de manera limpia y ordenada, evitando el código espagueti que ha hecho muy poco estable a este lenguaje.</p>
 
 <p>Para clonar el proyecto es necesario instalar previamente <a href="http://git-scm.com/">Git</a> en tu computador. Posteriormente entrar en tu consola y colocar los siguientes comandos.</p>
 
@@ -60,7 +60,7 @@ $ git fetch origin
 <h3>
 <a id="configuración" class="anchor" href="#configuraci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuración</h3>
 
-<p>Empezar a usar el proyecto es muy facil, una vez clonado el repositorio en tu maquina, entrar en la carpeta /helpers/system/conf/config.php  en este archivo configuraremos nuestra base de datos.</p>
+<p>Empezar a usar el proyecto es muy fácil, una vez clonado el repositorio en tu maquina, entrar en la carpeta /helpers/system/conf/config.php  en este archivo configuraremos nuestra base de datos.</p>
 
 <pre><code>
 define("DB_HOST", "localhost"); //nombre del host donde se encuentra la base de datos
@@ -72,7 +72,7 @@ define("DB_CHAR", "utf8"); // tipo de codificación
 </code></pre>
 
 <h3>
-<a id="conceptos-basicos" class="anchor" href="#conceptos-basicos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conceptos basicos</h3>
+<a id="conceptos-básicos" class="anchor" href="#conceptos-b%C3%A1sicos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conceptos básicos</h3>
 
 <p>En seguida se muestra un pequeño código del funcionamiento del mini Framework</p>
 
@@ -123,7 +123,7 @@ class HomeController{
     {
         $consulta = new NameModel();
         $values = $consulta-&gt;get("id", 1);
-        return new View("home/index", ["title" =&gt; "Tarbajando con el framework YOi", "layout" =&gt; "off", "values" =&gt; $values);
+        return new View("home/index", ["title" =&gt; "Trabajando con el framework YOi", "layout" =&gt; "off", "values" =&gt; $values);
     }
 }
 
@@ -156,12 +156,12 @@ class HomeController{
 <h3>
 <a id="autor" class="anchor" href="#autor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Autor</h3>
 
-<p>Ernesto Valenzuela, apasionado a la programación así como de las tecnologias open source, amante de los lenguajes Ruby, PHP &amp; Python, puedes contactarme directamente a correo <a href="mailto:hello@programminghack.mx">hello@programminghack.mx</a> o bien seguirme en twitter <a href="https://github.com/programminghack" class="user-mention">@programminghack</a></p>
+<p><a href="https://github.com/programminghack" class="user-mention">@programminghack</a> Ernesto Valenzuela, apasionado a la programación así como de las tecnologías open source, amante de los lenguajes Ruby, PHP &amp; Python, puedes contactarme directamente a correo <a href="mailto:hello@programminghack.mx">hello@programminghack.mx</a> o bien seguirme en twitter <a href="https://twitter.com/programminghack">@programminghack</a></p>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="colaboración" class="anchor" href="#colaboraci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Colaboración</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Si gustas colaborar en el proyecto puedes mandar tu Pull Request o bien contactarme para incluirte como colaborador.</p>
       </section>
     </div>
 
