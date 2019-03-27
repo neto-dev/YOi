@@ -111,7 +111,7 @@ class HomeController{
 ```
 
 ### Autor
-@programminghack Ernesto Valenzuela, apasionado a la programación así como de las tecnologías open source, amante de los lenguajes Ruby, PHP & Python, puedes contactarme directamente a correo hello@programminghack.mx o bien seguirme en twitter [@programminghack](https://twitter.com/programminghack)
+@programminghack Ernesto Valenzuela, apasionado a la programación así como de las tecnologías open source, amante de los lenguajes Ruby, PHP & Python, puedes contactarme directamente a correo hello@netodev.me o bien seguirme en twitter [@neto_dev](https://twitter.com/neto_dev)
 
 ### Colaboración
 Si gustas colaborar en el proyecto puedes mandar tu Pull Request o bien contactarme para incluirte como colaborador.
